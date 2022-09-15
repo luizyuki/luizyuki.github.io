@@ -8,44 +8,102 @@
     <style>
         #nome {
             font-family: monospace;
+            font-size: 15px;
         }
         #descricao {
             font-family: sans-serif;
-            font-size: 14px;
+            font-size: 15px;
         }
         body {
            background-color:#ADA8B6;
         }
+        p, ul {
+            color: #000000;
+        }
         h1, h2 {
             color: #2F243A;
         }
+        #sobremim {
+            border-radius: 30px 30px;
+            background-color: #be4b4a;
+            padding: 10px;
+            width: 110px;
+            font-family: monospace;
+        }
+        #softskills {
+            border-radius: 30px 30px;
+            background-color: #be4b4a;
+            padding: 10px;
+            width: 130px;
+            font-family: monospace;
+        }
+        #hardskills {
+            border-radius: 30px 30px;
+            background-color: #be4b4a;
+            padding: 10px;
+            width:132px;
+            font-family: monospace;
+        }
+        #hobbies {
+            border-radius: 30px 30px;
+            background-color: #be4b4a;
+            padding: 10px;
+            width: 85px;
+            font-family: monospace;
+        }
+        #links {
+            border-radius: 30px 30px;
+            background-color: #be4b4a;
+            padding: 10px;
+            width: 60px;
+            font-family: monospace;
+        }
+        .soft-skills {
+            font-size: 18px;
+        }
         img {
             border-radius: 20px;
+        }
+        .hobbies-skill {
+            font-style: italic;
+        }
+        #empatia-skill, #html-skill {
+            font-weight: bold;
+        }
+        h1 {
+            border-radius: 30px 30px;
+            background-color: #be4b4a;
+            padding: 10px;
+            width: 715px;
+            font-family: monospace;
+        }
+        #writing-hobbies {
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
     <h1>Portfólio de Luiz Felipe Yuki Kanzaki e Gomes</h1> <br> <br>
     <img src="profile.png" width="400px" alt="Luiz Felipe no reflexo do espelho com uma camisa do Hellfire Club" id="imagemluiz">
-    <h2 id="sobremim">Sobre mim:</h2>
+    <h2 id="sobremim">Sobre mim</h2>
     <p id="nome">Luiz Felipe Yuki Kanzaki e Gomes</p><p id="descricao">Tenho 18 anos, nasci e moro em Santos, SP</p>
     <h2 id="softskills">Soft Skills</h2>
     <ul>
-        <li>Criatividade</li>
-        <li><strong>Empatia</strong></li>
-        <li>Quando eu foco em algo, me prendo bastante à ela</li>
-        <li>Resiliência, mesmo em momentos difíceis</li>
+        <li class="soft-skills">Criatividade</li>
+        <li id="empatia-skill" class="soft-skills">Empatia</li>
+        <li class="soft-skills">Quando eu foco em algo, me prendo bastante à ela</li>
+        <li class="soft-skills">Resiliência, mesmo em momentos difíceis</li>
     </ul>
     <h2 id="hardskills">Hard Skills</h2>
     <ul>
         <li>Git e GitHub</li>
-        <li><strong>HTML</strong></li>
-        <li><em>Javascript Básico</em></li>
+        <li id="html-skill">HTML</li>
+        <li class="hobbies-skill">Javascript Básico</li>
         <li>Unix e Bash</li>
     </ul>
     <h2 id="hobbies">Hobbies</h2>
-    <p>Algumas das coisas que mais gosto de fazer é jogar/falar sobre RPG,<a href="https://pt.wikipedia.org/wiki/Role-playing_game" target="_blank"><em> Role Playing Game</em></a>, e ver séries e animes, como <a href="https://www.imdb.com/title/tt0903747/" target="_blank"><em>Breaking Bad</em></a> e <a href="https://www.imdb.com/title/tt5626028/" target="_blank"><em>My Hero Academia</em></a>, respectivamente.</p>
-    <h2>Links</h2>
+    <p id="writing-hobbies">Algumas das coisas que mais gosto de fazer é jogar/falar sobre RPG,<a href="https://pt.wikipedia.org/wiki/Role-playing_game" target="_blank" class="hobbies-skill"> Role Playing Game</a>, e ver séries e animes, como <a href="https://www.imdb.com/title/tt0903747/" target="_blank" class="hobbies-skill">Breaking Bad</a> e <a href="https://www.imdb.com/title/tt5626028/" target="_blank" class="hobbies-skill">My Hero Academia</a>, respectivamente.</p>
+    <h2 id="links">Links</h2>
     <p><a href="#imagemluiz">Foto de Luiz Felipe</a></p>
     <p><a href="#sobremim">Sobre mim</a></p>
     <p><a href="#softskills">Soft Skills</a></p>
